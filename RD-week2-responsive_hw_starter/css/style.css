@@ -37,9 +37,9 @@ div img{
 }
 
 div{
-  display: inline-block;
-  width: 24%;
-  margin: 5px;
+  display: block;
+  width: 90%;
+  margin: 5px auto;
   padding: 2px;
 }
 
@@ -142,3 +142,18 @@ header {
 .child:hover .label {
     display: block;
 } */
+/* Tablet View - 2 columnas */
+@media screen and (min-width: 772px) {
+  div {
+    display: inline-block;
+    width: 45%;
+  }
+}
+
+/* Large Screen View - 4 columnas */
+@media screen and (min-width: 992px) {
+  div {
+    display: inline-block;
+    width: 24%;
+  }
+}
